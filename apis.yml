@@ -1,8 +1,25 @@
 aid: lucidum
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lucidum.png
 name: Lucidum
-description: 'Lucidum is a company surfaced as a portfolio company of ggv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Lucidum is a cyber asset and security data platform (CAASM) that ingests, correlates,
+  and enriches data from more than 500 sources to give security and IT teams a unified inventory of
+  assets, identities, data, and their relationships. The Security Data Fabric platform eliminates
+  blind spots by connecting to existing SIEM, cloud, endpoint, and identity systems without extra
+  ingestion charges, and surfaces unseen systems and accounts for exposure and attack-surface
+  management. Lucidum was acquired by Cyderes and its capabilities are now delivered as part of the
+  Cyderes "Meridian" platform. This profile originated as a GGV Capital portfolio lead and was
+  enriched from Lucidum public web surface; the company publishes no public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/lucidum/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Security
+- CAASM
+- Cyber Asset Management
+- Attack Surface Management
+- Security Data Fabric
+- Asset Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,22 @@ maintainers:
 common:
 - type: Website
   url: https://lucidum.io/
+- type: Documentation
+  url: https://lucidum.io/docs/
+- type: Support
+  url: https://www.cyderes.com/company/contact-us
+- type: WellKnown
+  url: well-known/lucidum-well-known.yml
+- type: SecurityTxt
+  url: well-known/lucidum-security.txt
+- type: VulnerabilityDisclosure
+  url: security/lucidum-vulnerability-disclosure.yml
+- type: Security
+  url: security/lucidum-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/lucidum-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
