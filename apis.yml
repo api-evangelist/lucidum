@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://lucidum.io/', status: 302, note: 'declared website redirects to https://www.cyderes.com/ — a different registrable domain (lucidum.io -> cyderes.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lucidum.png
 name: Lucidum
 description: 'Lucidum is a cyber asset and security data platform (CAASM) that ingests, correlates,
